@@ -20,8 +20,8 @@ export default function Home() {
                 </nav>
                 <div className="text-center p-10">
                     <h2 className="text-5xl py-2 text-orange-500 font-medium">Mthokozisi Sibanda</h2>
-                    <h3 className="text-2xl py-2">Developer and Honours student</h3>
-                    <p className="text-md py-5 leading-8 text-gray-800">
+                    <h3 className="text-2xl py-2 text-teal-300">Developer and Honours student</h3>
+                    <p className="text-md py-5 leading-8 text-gray-300">
                         I am a developer and an Honours student at Rhodes University.
                         I like playing around with technology and hope to make an impact with it on the world.
                         I am currently studying towards a BSc (Hons) in Computer Science
@@ -191,7 +191,7 @@ export function Post() {
                     <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                         <div className="lg:pr-4">
                             <div className="lg:max-w-lg">
-                                <p className="text-base font-semibold leading-7 text-indigo-600">Blog post</p>
+                                <p className="text-base font-semibold leading-7 text-orange-500">Blog post</p>
                                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How I built this site</h1>
                                 <p className="mt-6 text-xl leading-8 text-gray-700">
                                     Have you ever scrolled through social media and stumbled upon something that ignites a creative spark?
@@ -223,7 +223,7 @@ export function Post() {
                                 </p>
                                 <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                     <li className="flex gap-x-3">
-                                        <IoFootsteps className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                        <IoFootsteps className="mt-1 h-5 w-5 flex-none text-orange-500" aria-hidden="true" />
                                         <span>
                                             <strong className="font-semibold text-gray-900">Taking the First Step: Embracing Modularity. </strong> 
                                              Instead of feeling overwhelmed, I decided to break things down. I knew a single-page portfolio would a
@@ -234,7 +234,7 @@ export function Post() {
                                         </span>
                                     </li>
                                     <li className="flex gap-x-3">
-                                        <GiBrickWall className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                        <GiBrickWall className="mt-1 h-5 w-5 flex-none text-orange-500" aria-hidden="true" />
                                         <span>
                                             <strong className="font-semibold text-gray-900">A Step-by-Step Build</strong>
                                             <ol>
@@ -263,7 +263,7 @@ export function Post() {
                                     </li>
                                     </ul>
                                     {/* <li className="flex gap-x-3">
-                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                        <ServerIcon className="mt-1 h-5 w-5 flex-none text-orange-500" aria-hidden="true" />
                                         <span>
                                             <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
                                             vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.

@@ -1,5 +1,6 @@
 // Import statements...
-import Home, { BlogCarousel, Post } from './defs.js'; // Importing the default export and named export
+import Home, { BlogCarousel} from './defs.js'; // Importing the default export and named export
+import Post from './renderpost.js'; // Importing the default export
 
 export default function MyComponent() {
   return (
@@ -11,7 +12,7 @@ export default function MyComponent() {
     </section>
       <section>
         <div>
-          <Post />
+          <Post id="1"/>
         </div>
       </section></>
   );
